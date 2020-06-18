@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Lab8" />
         <module name="servelat-master" />
+        <module name="Lab8" />
       </profile>
     </annotationProcessing>
   </component>
