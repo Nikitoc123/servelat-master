@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<form action="/chat/send_message" method="post" autocomplete="off">
+
+    Кому:
+    <input  src="/chat/private" name="person" required value="all" style="width: 15%">
+    Сообщение:
+    <input type="text" name="message" style="width: 30%">
+    <input type="submit" value="Отправить">
+    <a href="/chat/logout" target="_top">Выйти из чата</a>
+
+</form>
+</body>
+</html>
